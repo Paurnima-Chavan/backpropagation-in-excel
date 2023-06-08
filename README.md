@@ -62,7 +62,7 @@ The purpose of dividing by 2 is to simplify the mathematical calculations and do
 By summing up the squared differences for each data point and taking the average, the mean squared error (MSE) provides a measure of how well a regression model fits the data. Minimizing the MSE helps to find the optimal parameters of the model that result in the smallest overall prediction error.
 
 ## Backpropagation 
-[In the Excel implementation of Backpropagation](xxx), we can examine the detailed calculations involved in the process. Here are the steps:
+[In the Excel implementation of Backpropagation](https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/Back-Propagation.xlsx), we can examine the detailed calculations involved in the process. Here are the steps:
 
     1. Randomly initialize the weights of the neural network.
     2. Perform a feedforward pass, where the inputs are propagated through the network to obtain the predicted output.
