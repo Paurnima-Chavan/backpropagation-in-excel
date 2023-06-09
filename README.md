@@ -183,10 +183,10 @@ Loss with respect to Learning rate 1
     <img width="530" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/16.png" />
 </p>
 
-Loss with respect to Learning rate 0.5
+Loss with different Learning Rate (η)
 
 <p align="left">    
-    <img width="530" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/17.png" />
+    <img hight="100" aling="left" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/18-new.png" />
 </p>
 
 Monitoring the loss graph during backpropagation provides valuable insights into the training process and helps assess the effectiveness of the learning algorithm in optimizing the neural network.
