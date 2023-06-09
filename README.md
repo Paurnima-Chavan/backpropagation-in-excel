@@ -16,7 +16,7 @@ Linear functions are inadequate for representing logistic regression because the
 To establish a correspondence between predicted values and probabilities, we employ the Sigmoid function. This function transforms any real value into a value ranging from 0 to 1. In the context of machine learning, we utilize the Sigmoid function to map predictions to probabilities.
 
 <p align="center">    
-    <img width="200" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/61b7456c-dc98-4cd8-8093-c342bebfe556" />
+    <img width="200" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/1.png" />
 </p>
 
 ### Hypothesis Representation
@@ -41,7 +41,7 @@ We have expected that our hypothesis will give values between 0 and 1.
     i.e. hΘ(x)  = 1/(1 + e^-(β₀ + β₁X)     
 ```
 <p align="left" padding-left=10>    
-   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <img width="200" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/a786cf8c-b477-4d53-987c-07f7b7f54e8b" />
+   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <img width="200" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/2.png" />
 </p> 
 
 ### Cost Function
@@ -77,26 +77,26 @@ By following these steps iteratively, the neural network gradually learns and ad
 The values mentioned below are considered constant or fixed in this context. 
 
 <p align="left">    
-    <img width="300" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/e49538bf-528d-4673-ad86-51a882d2ff77" />
+    <img width="300" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/3.png" />
 </p>
 
 
 The objective here is to construct a neural network in which we can adjust the weights (W1, W2, W3, W4, etc.) such that when given input values i1 = 0.05 and i2 = 0.1, the network produces the desired outputs t1 = 0.5 and t2 = 0.5.
 
 <p align="left">    
-    <img width="620" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/4b996c77-ec6e-447d-986a-dd9a4ae80a38" />
+    <img width="620" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/4.png" />
 </p>
 
 We will begin by computing the values for h1, h2, a_h1, and a_h2. Here are the formulas to compute these values:
 
 <p align="left">    
-    <img width="300" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/669befcb-7918-475d-b321-74ce9b0867ba" />
+    <img width="300" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/5.png" />
 </p>
 
 We will assign random weights to w1, w2, w3, w4, w5, w6, w7, and w8.
 
 <p align="left">    
-    <img  height="50" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/1fbfad5c-8bac-4963-9f09-a978175f3ca4" />
+    <img  height="50" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/6.png" />
 </p>
 
 ### 1.2 Forward propagation:
@@ -106,13 +106,8 @@ We will perform forward propagation, which involves passing the inputs through t
 We will write down the formulas to compute the aforementioned values.
 
 <p align="left">    
-    <img  height="50" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/1fbfad5c-8bac-4963-9f09-a978175f3ca4" />
+    <img  height="50" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/7.png" />
 </p>
-
-<p align="left">    
-    <img  height="50" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/d85f719c-3898-4a54-8dba-138afe5b68b8" />
-</p>
-
 
 ### 1.3 Partial derivates
 
@@ -123,31 +118,31 @@ First, calculate derivates of ∂E/∂w1, ∂E/∂w2, ∂E/∂w3, ∂E/∂w4, �
 Let's derive the formula for calculating the derivative of the error with respect to W5.
 
 <p align="left">    
-    <img  width="350" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/84829916-11a3-4c59-ad25-d80e610bfee7" />
+    <img  width="350" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/8.png" />
 </p>
 
 Similarly, calculate derivatives error with respect to W6, W7, W8
 
 <p align="left">    
-    <img height="80" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/5c49d529-db61-48b0-92b7-efc8dff478cf" />
+    <img height="80" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/9.png" />
 </p>
 
 <p align="left">    
-    <img height="80" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/2f0b00b3-b860-4892-8c79-7dcf203be4ee" />
+    <img height="80" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/10.png" />
 </p>
 
 <p align="left">    
-    <img height="70" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/ab5c3d54-8eae-4d7b-a756-7ed1f2187ed5" />
+    <img height="70" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/11.png" />
 </p>
 
 <p align="left">    
-    <img height="80" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/d2d8c55a-d6dd-4f02-aa21-b158938486cb" />
+    <img height="80" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/12.png" />
 </p>
 
 We will utilize these formulas to populate the cells and calculate the derivatives of the error with respect to all available weights as shown below.
 
 <p align="left">    
-    <img height="50" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/10fc626a-74e8-4d62-b65b-5e8c41eccd7c" />
+    <img height="50" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/13.png" />
 </p>
 
 ### 1.4 Updating weights
@@ -164,13 +159,13 @@ E.g., new weight for W1
 Likewise, we will apply this formula to update all the weights, including w1, w2, … w8.
 
 <p align="left">    
-    <img height="50" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/c49fb724-7922-4473-8449-0d16e5f43af1" />
+    <img height="50" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/14.png" />
 </p>
 
 Now, we can repeat this process for a specified number of iterations, such as 60, by simply copying and pasting the Excel formulas as shown below.
 
 <p align="left">    
-    <img height="260" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/c5cd7c20-7fab-41bc-bb06-97e17b862e9d" />
+    <img height="260" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/15.png" />
 </p>
 
 
@@ -185,13 +180,13 @@ Typically, you would expect the loss to gradually decrease over iterations, indi
 Loss with respect to Learning rate 1
 
 <p align="left">    
-    <img width="530" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/e4b199fe-3a89-4d64-a26d-e235ec9cc56e" />
+    <img width="530" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/16.png" />
 </p>
 
 Loss with respect to Learning rate 0.5
 
 <p align="left">    
-    <img width="530" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/assets/25608455/06412952-1d5c-48cd-b599-0e745317e73a" />
+    <img width="530" aling="right" src="https://github.com/Paurnima-Chavan/backpropagation-in-excel/blob/main/imgs/17.png" />
 </p>
 
 Monitoring the loss graph during backpropagation provides valuable insights into the training process and helps assess the effectiveness of the learning algorithm in optimizing the neural network.
